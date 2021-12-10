@@ -2,9 +2,11 @@
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="../Img/Png/s.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Css/StyleMain.css" />
+    <link rel="stylesheet" href="../Font/icofont/icofont.min.css" />
     <title>Snapp.ir</title>
   </head>
   <body>
@@ -12,10 +14,23 @@
     <header id="Header">
       <div class="Header_Container">
         <div class="Header_row">
+          <div id="MenuHum">
+            <img src="../Img/Png/menu.png" alt="" id="Humber" />
+            <div id="menu">
+              <ul>
+                <li><a href="#">فرصت شغلی</a></li>
+                <li><a href="#">بلاگ</a></li>
+                <li><a href="#">باشگاه رانندگان</a></li>
+                <li><a href="#">پیوستن به ناوگان اسنپ</a></li>
+                <li><a href="#">پنل سازمانی</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+              </ul>
+            </div>
+          </div>
           <div id="Logo">
-            <a href="">
-              <img src="#" alt="" />
-              <i>Logo</i>
+            <a href="" class="Link_Logo">
+              <img src="../Img/Png/Logo.png" alt="" class="Main_img_Logo" />
             </a>
           </div>
           <ul id="Header_Parent_ls">
@@ -52,13 +67,20 @@
               سفر، مشاوره‌ی پزشکی و روانشناسی، رزرو هتل و... را میتوانید با
               سوپراپلیکیشن اسنپ انجام دهید.
             </p>
-            <input type="text" />
-            <button>ارسال لینک</button>
-            <button>ورود به وب اپیکیشن اسنپ</button>
+            <div id="Link_Get">
+              <input
+                type="text"
+                id="Input_Link_Get"
+                placeholder="--------0912"
+              />
+              <button id="Btn_Link_Get">ارسال لینک</button>
+            </div>
+            <div id="Login_Slider">
+              <button id="Btn_Login_To_App">ورود به وب اپیکیشن اسنپ</button>
+              <button id="DownloadApp">دانلود اپیکیشن اسنپ</button>
+            </div>
           </div>
-          <div id="Slider_P_Left">
-            <img src="#" alt="" />
-          </div>
+          <div id="Slider_P_Left"></div>
         </div>
       </div>
     </section>
@@ -69,19 +91,29 @@
         <div class="Download_row">
           <ul id="Download_Parent_ls">
             <li id="Downlaod_item">
-              <a href="" id="Downlad_link"><img src="" alt="" /></a>
+              <a href="" id="Downlad_link"
+                ><img src="../Img/Png/google-play-badge.png" alt=""
+              /></a>
             </li>
             <li id="Downlaod_item">
-              <a href="" id="Downlad_link"><img src="" alt="" /></a>
+              <a href="" id="Downlad_link"
+                ><img src="../Img/Png/bazaar.png" alt=""
+              /></a>
             </li>
             <li id="Downlaod_item">
-              <a href="" id="Downlad_link"><img src="" alt="" /></a>
+              <a href="" id="Downlad_link"
+                ><img src="../Img/Png/snapp-pwa.png" alt=""
+              /></a>
             </li>
             <li id="Downlaod_item">
-              <a href="" id="Downlad_link"><img src="" alt="" /></a>
+              <a href="" id="Downlad_link"
+                ><img src="../Img/Png/sibapp-badge-white.png" alt=""
+              /></a>
             </li>
             <li id="Downlaod_item">
-              <a href="" id="Downlad_link"><img src="" alt="" /></a>
+              <a href="" id="Downlad_link"
+                ><img src="../Img/Png/Ios.png" alt=""
+              /></a>
             </li>
           </ul>
         </div>
@@ -99,121 +131,192 @@
             <ul id="AllNeed_ls_Option">
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>تاکسی اینترنتی</h4>
-                  <p>امکان درخواست آنلاین خودرو با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/car.png" alt=""
+                  /></span>
+
+                  <span>
+                    <h4>تاکسی اینترنتی</h4>
+                    <p>امکان درخواست آنلاین خودرو با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>سفارش آنلاین غذا</h4>
-                  <p>سفارش غذا، نان و شیرینی با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Spoon.png" alt=""
+                  /></span>
+
+                  <span>
+                    <h4>سفارش آنلاین غذا</h4>
+                    <p>سفارش غذا، نان و شیرینی با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>دکتر</h4>
-                  <p>درمان با اسنپ</p>
+                  <span id="Card_Img"
+                    ><img src="../Img/Png/Dcotor.png" alt=""
+                  /></span>
+
+                  <span>
+                    <h4>دکتر</h4>
+                    <p>درمان با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>سوپرمارکت آنلاین</h4>
-                  <p>تهیه اقلام روزانه با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/shopping-basket.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>سوپرمارکت آنلاین</h4>
+                    <p>تهیه اقلام روزانه با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>اسباب کشی منزل</h4>
-                  <p>حمل و نقل با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Moving.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>اسباب کشی منزل</h4>
+                    <p>حمل و نقل با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>پیک موتوری</h4>
-                  <p>حمل و نقل با اسنپ</p>
+                  <span id="Card_Img"
+                    ><img src="../Img/Png/motorcycle.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>پیک موتوری</h4>
+                    <p>حمل و نقل با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>بلیت اتوبوس</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/bus.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>بلیت اتوبوس</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>فروشگاه</h4>
-                  <p>خرید از فروشگاه های معتبر شهر</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/new Shop.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>فروشگاه</h4>
+                    <p>خرید از فروشگاه های معتبر شهر</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>رزرو اقامتگاه</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/luggage.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>رزرو اقامتگاه</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>بلیت پرواز داخلی</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Domestic Trip.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>بلیت پرواز داخلی</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>رزرو هتل</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/hotel.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>رزرو هتل</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>نمایش</h4>
-                  <p>پخش زنده شبکه های تلویزیونی</p>
+                  <span id="Card_Img"
+                    ><img src="../Img/Png/Lenz.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>نمایش</h4>
+                    <p>پخش زنده شبکه های تلویزیونی</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>بلیت پرواز خارجی</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Domestic Trip.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>بلیت پرواز خارجی</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>پرداخت قبض</h4>
-                  <p>پرداخت با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Bill.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>پرداخت قبض</h4>
+                    <p>پرداخت با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>بلیت قطار</h4>
-                  <p>گردشگری با اسنپ</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/train.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>بلیت قطار</h4>
+                    <p>گردشگری با اسنپ</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>سرمایه گذاری</h4>
-                  <p>خدمات غیر حضوری بورس و سرمایه‌گذاری</p>
+                  <span id="Card_Img">
+                    <img src="../Img/Png/Service Icon.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>سرمایه گذاری</h4>
+                    <p>خدمات غیر حضوری بورس و سرمایه‌گذاری</p>
+                  </span>
                 </div>
               </li>
               <li id="AllNeed_item">
                 <div id="Card">
-                  <img src="#" alt="" />
-                  <h4>اسنپ!کلاب</h4>
-                  <p>باشگاه مشتریان اسنپ!</p>
+                  <span id="Card_Img"
+                    ><img src="../Img/Png/Gem.png" alt=""
+                  /></span>
+                  <span>
+                    <h4>اسنپ!کلاب</h4>
+                    <p>باشگاه مشتریان اسنپ!</p>
+                  </span>
                 </div>
               </li>
             </ul>
@@ -225,14 +328,16 @@
     <!--The Order Food  -->
     <section id="Order_Food">
       <div class="Order_Food_Container">
-        <div class="Order_Food_row"><img src="#" alt="" /></div>
+        <div class="Order_Food_row">
+          <a href="#"><img src="../Img/Food.jpg" alt="" /></a>
+        </div>
       </div>
     </section>
 
     <!--The Section (Answer to All Needs) -->
     <section id="Answer_to_All_Needs">
-      <div class="Answer_All_Container">
-        <div class="Answer_All_row">
+      <div class="Answer_All_Container_Up">
+        <div class="Answer_All_row_Up">
           <div id="Answer-Up">
             <div id="Answer_Up_Right"><img src="" alt="" /></div>
             <div id="Answer_Up_Left">
@@ -248,33 +353,42 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="Answer_All_Container_Down">
+        <div class="Answer_All_row_Down">
           <div id="Answer-Down">
-            <ul>
-              <li>
-                <img src="" alt="" />
-              </li>
+            <div class="Answer-Down-items">
+              <a href="#">
+                <img src="../Img/Png/210x190-easy.png" alt="" />
+              </a>
               <h4>آسان</h4>
               <p>
                 برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد
                 اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
               </p>
-              <li>
-                <img src="" alt="" />
-              </li>
+            </div>
+            <div class="Answer-Down-items">
+              <a>
+                <img src="../Img/Png/210x190-fast.png" alt="" />
+              </a>
               <h4>سریع</h4>
               <p>
                 قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک
                 می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.
               </p>
-              <li>
-                <img src="" alt="" />
-              </li>
+            </div>
+            <div class="Answer-Down-items">
+              <a>
+                <img src="../Img/Png/210x190-eco.png" alt="" />
+              </a>
               <h4>به صرفه</h4>
               <p>
                 سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند
                 تا بهترین خدمات را با قیمتی منطقی دریافت کنید.
               </p>
-            </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -290,50 +404,69 @@
             اینترنتی انجام دهید
           </p>
           <a href="">ثبت‌نام رانندگان</a>
-          <video src="#"></video>
+          <video
+            src="../Video/سوپر اپلیکیشن اسنپ - سامانه هوشمند حمل‌ونقل - تاکسی اینترنتی.mp4"
+            controls
+          ></video>
           <ul>
             <li>
-              <div class="R"><img src="" alt="" /></div>
-              <div class="L">
-                <p>درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
-                <p>
-                  با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان
-                  تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد
-                  خود را افزایش دهید.
-                </p>
+              <div class="Login_items_Adventage">
+                <div class="R">
+                  <img src="../Img/Png/180x100-income.png" alt="" />
+                </div>
+                <div class="L">
+                  <h5>درآمد تضمینی + پاداش‌های ماهانه و هفتگی</h5>
+                  <p>
+                    با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان
+                    تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف،
+                    درآمد خود را افزایش دهید.
+                  </p>
+                </div>
               </div>
             </li>
             <li>
-              <div class="R"><img src="" alt="" /></div>
-              <div class="L">
-                <p>ساعت کاری دلخواه</p>
-                <p>
-                  فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت
-                  خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان
-                  شخصی‌سازی کنید.
-                </p>
+              <div class="Login_items_Adventage">
+                <div class="R">
+                  <img src="../Img/Png/180x100-hour.png" alt="" />
+                </div>
+                <div class="L">
+                  <h4>ساعت کاری دلخواه</h4>
+                  <p>
+                    فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت
+                    خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی
+                    زندگی‌تان شخصی‌سازی کنید.
+                  </p>
+                </div>
               </div>
             </li>
             <li>
-              <div class="R"><img src="" alt="" /></div>
-              <div class="L">
-                <p>مزایا و خدمات باشگاه رانندگان</p>
-                <p>
-                  در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از
-                  جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی
-                  بهره‌مند شوید.
-                </p>
+              <div class="Login_items_Adventage">
+                <div class="R">
+                  <img src="../Img/Png/180x100-benefits.png" alt="" />
+                </div>
+                <div class="L">
+                  <h4>مزایا و خدمات باشگاه رانندگان</h4>
+                  <p>
+                    در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی
+                    از جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و
+                    آموزشی بهره‌مند شوید.
+                  </p>
+                </div>
               </div>
             </li>
             <li>
-              <div class="R"><img src="" alt="" /></div>
-              <div class="L">
-                <p>کار‌فیکس</p>
-                <p>
-                  باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را
-                  برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی
-                  راه‌اندازی کرده است.
-                </p>
+              <div class="Login_items_Adventage">
+                <div class="R">
+                  <img src="../Img/Png/180x100-carfix.png" alt="" />
+                </div>
+                <div class="L">
+                  <h4>کار‌فیکس</h4>
+                  <p>
+                    باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را
+                    برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی
+                    راه‌اندازی کرده است.
+                  </p>
+                </div>
               </div>
             </li>
           </ul>
@@ -358,15 +491,29 @@
           </div>
           <div id="Footer_P_Left">
             <ul>
-              <li><i>Titwwer</i></li>
-              <li><i>Instgram</i></li>
-              <li><i>Youtube</i></li>
-              <li><i>LindK</i></li>
-              <li><i>Telegram</i></li>
+              <li><i class="icofont-instagram"></i></li>
+              <li><i class="icofont-linkedin"></i></li>
+              <li><i class="icofont-twitter"></i></li>
+              <li><i class="icofont-youtube"></i></li>
+              <li><i class="icofont-telegram"></i></li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
   </body>
+  <script>
+    let El = {
+      menu: document.getElementById("menu"),
+      Humber: document.getElementById("Humber"),
+    };
+    function Open() {
+      El.menu.style.right = "0";
+    }
+    function Close() {
+      El.menu.style.right = "-100%";
+    }
+    El.Humber.addEventListener("click", Open);
+    El.Humber.addEventListener("dblclick", Close);
+  </script>
 </html>
